@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+"http://www.w3.org/TR/html4/strict.dtd"> 
+
+<html>
+<head>
+<title>Campo Minato</title>
+<meta http-equiv = "Content-Type" content = "text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="./CSS/INDEX.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./CSS/CampoMinatoFinale.css" type="text/css" media="screen">
+</head>
+
+<body onload="Presentazione()">
+<div id="navigation">
+	<ul>
+		<li><a href="SCEGLI_TU.html"><span>Scegli tu !!!</span></a></li>
+		<li><a href="Punteggi.html"><span>Punteggi</span></a></li>
+		<li><a href="INFORMAZIONI_CAMPO_MINATO.html"><span>Informazioni Campo Minato</span></a></li>
+	</ul>
+</div>
+
+<fieldset id="menu" class="menuu" style="height:50px; width:250px;">
+<legend style="text-align:center; color: blue;">Seleziona Il Livello</legend>
+Livello:<select id="Liv" name="Livelli" onchange="CalcolaDatiPredefinitoECreaCampo(this.value);">
+<option value="A"> </option>
+<option value="S">Semplice </option>
+<option value="M">Medio </option>
+<option value="D">Difficile </option>
+</select>
+</fieldset>
+
+
+
+<script type="text/javascript" src="./JS/CampoMinatoFinale.js"></script>
+<script type="text/javascript" src="./JS/inviodatiDB.js"></script>
+</body>
+</html>

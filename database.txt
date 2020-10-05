@@ -1,0 +1,10 @@
+DROP DATABASE if exists campominato;
+CREATE DATABASE campominato;
+USE campominato;
+
+CREATE TABLE partita (
+	nome		VARCHAR(20) NOT NULL,
+	livello	VARCHAR(20) NOT NULL,
+	tempo	INT(5),
+	dat	DATE
+);

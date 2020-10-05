@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+"http://www.w3.org/TR/html4/strict.dtd"> 
+
+<html>
+<head>
+<title>Costruisci tu il campo</title>
+<meta http-equiv = "Content-Type" content = "text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="./CSS/INDEX.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./CSS/CampoMinatoFinale.css" type="text/css" media="screen">
+</head>
+
+<body onload="PresentazioneScegliTu()">
+<div id="navigation">
+	<ul>
+		<li><a href="index.html"><span>Facile - Medio - Difficile</span></a></li>
+		<li><a href="Punteggi.html"><span>Punteggi</span></a></li>
+		<li><a href="INFORMAZIONI_CAMPO_MINATO.html"><span>Informazioni Campo Minato</span></a></li>
+	</ul>
+</div>
+
+<fieldset id="sceltasceglitu" class="menuu" style="height:50px; width:380px;">
+<legend style="text-align:center; color: blue;">Costruisci il tuo campo</legend>
+Righe:<select id="Righe" onchange="PrendiRighe(this.value)"></select>
+Colonne:<select id="Colonne" onchange="PrendiColonne(this.value)"></select>
+Bombe:<select id="Bombe" disabled="disabled"></select>
+<button id="StartScegliTu" onclick="AvviaPersonalizzato()" disabled="disabled">Go!!</button>
+</fieldset>
+
+
+<script type="text/javascript" src="./JS/CampoMinatoFinale.js"></script>
+<script type="text/javascript" src="./JS/CampoMinatoFinaleScegliTu.js"></script>
+</body>
+</html>

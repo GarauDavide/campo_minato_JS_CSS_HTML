@@ -1,0 +1,20 @@
+#Display{margin:0px auto 200px auto; border:3px solid black; border-top:1px solid black;}
+#Intestazione{height:40px; background-color:#A9A9A9; border:1px solid black;}
+#Campo{border:1px solid black; position:absolute; background-color:#B0C4DE;}
+#StartScegliTu{height:25px; width:50px; color: blue; font-weight: bold; text-align:center; font-family: Comic Sans MS; padding:0px;}
+#Start{height:30px; width:30px; font-weight: bold; margin-top:5px; margin-bottom:5px; padding:0px;}
+#Timer{margin-top:20px; margin-left:auto; margin-right:auto; height:35px; background-color: #A9A9A9; text-align:center; color:red;}
+.BotCasella{height:21px; width:21px; border:1px solid black; position:absolute; background-color:#B0C4DE;}
+.menuu{ margin-top:15px; margin-left:auto; margin-right:auto;}
+.DivSostituto{width: 20px; height: 20px; border: 1px solid gray; position: absolute; background-color: #E6E6FA; text-align: center; font-weight: bold; padding:0px;}
+.DivBombe{width: 20px; height: 20px; border: 1px solid gray; position: absolute; background-repeat:no-repeat; padding:0px;}
+#Tabella{overflow: visible; margin-top:70px; margin-left:auto; margin-right:auto; text-align:left; margin-bottom:250px; color:blue;}
+.intestazioneTab{background-color : blue; font-size : 16px; color : white; padding : 2px; }
+.griglieTabella{background-color : #e0e0e0; color : #000000; padding : 2px;}
+#divPresentazione{height:40px; width:700px; margin-top:150px; margin-left:auto; margin-right:auto; color:red;}
+#RegoleCampo{margin-top:15px; margin-left:auto; margin-right:auto; height:100px; width:500px;}
+#FacciaBottone{margin-top:2px; margin-right:0px;}
+#PopUp{z-index:3; text-align:center; background-color: #AFEEEE; position:absolute; top: 200px; left: 470px; width: 410px; height: 250px; border: 3px solid black;}
+.ParagInfoCampo{text-align:justify; margin-left:30px; margin-right:30px;}
+#InfoCampoDiv{height:30px; width:200px; margin:45px auto 10px 30px;}
+#ulInfoCampo{margin-left:45px; margin-right:30px; text-align:justify;}
